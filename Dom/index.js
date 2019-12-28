@@ -12,7 +12,10 @@ document.getElementById("SegundoBotton").addEventListener("click", function(){
     //document.getElementById("PrimerBoton").click();
 });
 document.getElementById("btnCopiar").addEventListener("click",function(){
-    alert("STOP");
+    var divOrig = document.getElementById("botones");
+    var divCopia = document.getElementById("copia");
+    divCopia.innerHTML+=divOrig.innerHTML;
+//    alert(divOrig.innerHTML);
 });
 
 function segundaFuncion(){
