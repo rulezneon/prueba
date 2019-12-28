@@ -1,0 +1,6 @@
+{
+    alto,
+    ancho,
+    ppp,
+    tec
+}

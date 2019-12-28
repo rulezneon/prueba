@@ -1,0 +1,4 @@
+{
+    Simbolo,
+    EjecutarAccion,
+}
