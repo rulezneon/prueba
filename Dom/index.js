@@ -11,7 +11,9 @@ document.getElementById("SegundoBotton").addEventListener("click", function(){
     }
     //document.getElementById("PrimerBoton").click();
 });
-
+document.getElementById("btnCopiar").addEventListener("click",function(){
+    alert("STOP");
+});
 
 function segundaFuncion(){
     console.log("Todo esta bien");
