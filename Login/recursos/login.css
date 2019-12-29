@@ -34,5 +34,31 @@ button:hover{
 }
 
 .imgcontainer{
-    
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.container{
+    padding: 16px;
+}
+
+span.psw{
+    float: right;
+    padding-top: 16px;
+}
+
+@media screen and (max-width:500px){
+    span.psw{
+        display: block;
+        float: none;
+    }
+    .cancelbtn{
+        width: 100%;
+    }
 }
