@@ -14,18 +14,22 @@
         <div class="container">
             <label for="uname"><b>Usuario</b></label>
             <input type="text" placeholder="Ingresar usuario" name="uname" required>
+            <br>
             <label for="psw"><b>Contraseña</b></label>
             <input type="password" placeholder="Ingresar contaseña" name="psw" required>
-            <button type="submit">Iniciar Sesión</button>
+            <br>
             <label>
                 <input type="checkbox" checked="checked" name="remember">
                 Recuérdame
             </label>
+            <br>
+            <button type="submit" class="loginbtn">Iniciar Sesión</button>            
         </div>
         
         <div class="container" style="background-color: #f1f1f1">
             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-            <span class="psw"><a href="#">Olvidar contraseña</a></span>
+            <br>
+            <span class="psw"><a href="#">¿Recordar contraseña?</a></span>
         </div>
     </form>
 </div>
